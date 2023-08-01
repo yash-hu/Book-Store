@@ -15,9 +15,11 @@ function App() {
         main: "#d32f2f",
       },
       secondary: {
-        main: "#fffffff",
+        main: "#d3f400",
       },
+      
     },
+
   });
 
   return (

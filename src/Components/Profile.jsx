@@ -7,7 +7,7 @@ export const Profile =() => {
 
     return (
       <>
-        <h1 className={classes.wrapper}>This is your profile component
+        <h1 className={classes.wrapper}>This is your profile component 
         <Button
           variant="contained"
           color="primary"
@@ -17,10 +17,10 @@ export const Profile =() => {
           Click me!
         </Button>
         </h1>
-        <TextField className="input-element" />
+        <TextField id="filled-basic" label="Write something" variant="filled" />
 
-        <NavLink to={"/"}>Home </NavLink>
-        <NavLink to={"/user"}>User route</NavLink>
+        <NavLink to={"/"}>Home </NavLink> | 
+        <NavLink to={"/user"}> User route</NavLink>
       </>
     );
 }

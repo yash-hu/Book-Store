@@ -10,8 +10,8 @@ export const Home =() => {
     return (
         <>
         <h1>This is home page</h1>
-        <NavLink to={"/user"} >User route </NavLink>
-        <NavLink to={"/profile"} >Profile</NavLink>
+        <NavLink to={"/user"} >User route </NavLink> |
+        <NavLink to={"/profile"} > Profile</NavLink>
 
         <ul>
             {
