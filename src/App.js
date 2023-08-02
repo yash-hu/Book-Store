@@ -5,6 +5,7 @@ import { Home } from "./Components/Home";
 import { User } from "./Components/User";
 import { Profile } from "./Components/Profile";
 import { ThemeProvider, createTheme } from "@material-ui/core";
+import { Register } from "./Components/Register/Register";
 
 function App() {
   const name = "Yash";
@@ -30,6 +31,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/user" element={<User name={name} age={age} />} />
             <Route path="/profile" element={<Profile />} />
+            <Route path="/register" element={<Register />} />
           </Routes>
         </div>
       </ThemeProvider>
